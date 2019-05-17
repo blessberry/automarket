@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+.box-container-1,.box-container-2 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row-container{
+    display: flex !important;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap !important;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.header-container, .retailer-container{
+	display: flex !important;
+	justify-content: space-between !important;
+}
+.car-price-content {
+	margin-top: 0.25rem !important;
+	margin-bottom: 0.25rem !important;
+}
+.car-name-content,.info-text {
+	margin: 0;
+	text-align: left;
+}
+.car-detail-container {
+	padding: 0.5rem;
+}
+.login-container {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.retailer-content {
+	color: #311b92 !important;
+}
+a {
+	text-decoration: none;
+	color: #7e57c2;
+}
+
+.box-content {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #fafafa;
+	margin-top: 1rem;
+}
+
+.car-price-content {
+	color: #757575;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1rem;
+	text-align: left;
+}
+
+.logo {
+	margin-top: -1rem;
+	width: 80px;
+	height: 80px;
+}
+
+.box-content small a {
+	color: rgb(250, 140, 15);
+	font-size: 12px;
+	text-align: right;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 10px;
+}
+.box-content small a:hover {
+	color: #512da8;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff;
+	color: #0a0a0a;
+ 	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	font-size: calc(0.75em + 1vmin);
+	box-sizing: border-box;
+}
+.login-content {
+	background-color: white;
+	color: #0a0a0a;
+	border: 1px solid #dee2e6;
+	font-size: 1rem;
+	padding: 0.4rem 0.8rem !important;
+	border-radius: .9rem;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.login-content:hover {
+	background-color: #00CFCF;
+	color: #fff;
+	border: 1px solid #dee2e6;
+}
+
+@media (min-width: 767px) {
+.box-container-2 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+@media (min-width: 991px) {
+    .container {
+        max-width: 959px;
+    }
+}
