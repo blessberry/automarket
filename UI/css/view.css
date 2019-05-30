@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: calc(0.75em + 1vmin);
+	box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	width: 80%;
+	margin: auto;
+}
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+.all {
+    width: 75%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 991px) {
+    .all {
+        max-width: 959px;
+    }
+}
+.header, .seller{
+	display: flex !important;
+	justify-content: space-between !important;
+}
+.logo {
+	margin-top: -1rem;
+	width: 80px;
+	height: 80px;
+}
+.login {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.login-text {
+	border: 1px solid #dee2e6;
+	font-size: 1rem;
+	padding: 0.4rem 0.8rem !important;
+	border-radius: .9rem;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.login-text:hover {
+	background-color: #00CFCF;
+	color: #fff;
+}
+.title-1 {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	margin-top: 2rem;
+}
+.center {
+	justify-content: center !important;
+}
+.title-2 button{
+	border: none;
+	font-size: 17px;
+}
+.title-3 button {
+	background-color: #fafafa;
+	padding: 10px 20px;
+	cursor: pointer;
+	float: left;
+}
+.title-3 button:hover, .a:hover {
+	background-color: #e8eaf6 !important;
+	color: #512da8;
+}
+.left-right {
+	border-radius: 0.5rem 0 0 0.5rem;
+}
+.right-right {
+	border-radius: 0 0.5rem 0.5rem 0;
+}
+.on {
+	background: #D1C4E9 !important;
+    color: #512DA8 !important;
+}
+.main {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.container { 
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 767px) {
+.container {
+        max-width: 70%;
+        margin: auto;
+    }
+}
+.content {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+	border-radius: 10px;
+	background-color: #fafafa;
+	margin-top: 1rem;
+}
+.content small a {
+	color: rgb(250, 140, 15);
+	font-size: 12px;
+}
+.content small a:hover {
+	color: #512da8;
+}
+.info {
+	padding: 0.5rem;
+}
+.brand {
+	margin: 0;
+	
+}
+.cost {
+	margin-top: 0.25rem !important;
+	margin-bottom: 0.25rem !important;
+}
+.seller-text {
+	color: #311b92 !important;
+}
