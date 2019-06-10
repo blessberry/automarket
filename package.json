@@ -1,0 +1,39 @@
+{
+  "name": "automarket",
+  "version": "1.0.0",
+  "description": "Auto Market is an online marketplace for automobiles of diverse makes, model or body type. With Auto Market, users can sell their cars or buy from trusted dealerships or private sellers.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha server/test/ --require esm --recursive --exit",
+    "nodemon": "nodemon -r esm app.js",
+    "lint": "npx eslint --fix app.js server/",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blessberry/automarket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blessberry/automarket/issues"
+  },
+  "homepage": "https://github.com/blessberry/automarket#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "validator": "^11.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1"
+  }
+}
