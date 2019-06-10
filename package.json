@@ -7,7 +7,7 @@
     "test": "mocha server/test/ --require esm --recursive --exit",
     "nodemon": "nodemon -r esm app.js",
     "lint": "npx eslint --fix app.js server/",
-    "start": "node app.js"
+    "start": "node -r esm app.js"
   },
   "repository": {
     "type": "git",
