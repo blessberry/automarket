@@ -2,13 +2,13 @@
   "name": "automarket",
   "version": "1.0.0",
   "description": "Auto Market is an online marketplace for automobiles of diverse makes, model or body type. With Auto Market, users can sell their cars or buy from trusted dealerships or private sellers.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha server/test/ --require esm --recursive --exit",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "nodemon": "nodemon -r esm index.js",
-    "lint": "npx eslint --fix index.js server/",
-    "start": "node -r esm index.js"
+    "nodemon": "nodemon -r esm app.js",
+    "lint": "npx eslint --fix app.js server/",
+    "start": "node -r esm app.js"
   },
   "repository": {
     "type": "git",
