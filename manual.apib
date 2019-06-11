@@ -1,0 +1,74 @@
+FORMAT: 1A
+HOST: https://quiet-inlet-95293.herokuapp.com
+
+# Automarket
+
+Automarket is an online marketplace for automobiles of diverse makes, model or body type. With Auto Mart, users can sell their cars or buy from trusted dealerships or private sellers.
+
+## Authentications [/api/v1/auth]
+
+### Sign up [POST /api/v1/auth/signup]
+This API endpoint creates a user account. It takes a JSON object.
+
++ Request (application/json)
+
+    + Body
+                
+
+                {
+                    "firstName": String,
+                    "lastName": String,
+                    "email": String,
+                    "password": String,
+                }
+
+
++ Response 201 (application/json)
+
+    + Body
+
+
+                {
+                    "status": "success",
+                    "message": "welcome (user firstname)",
+                    "data": {
+                        "token": Json web token,
+                        "id": Integer (generated user id),
+                        "firstName": String,
+                        "lastName": String,
+                        "email": string
+                    }
+                }
+
+
+
+### Sign in [POST /api/v1/auth/signin]
+This API endpoint logs in an existing user. It takes a JSON object
+
++ Request (application/json)
+    
+    + Body
+
+    
+                {
+                    "email": String,
+                    "password": String
+                }
+
+
++ Response 200 (application/json)
+
+    + Body
+
+
+                {
+                    "status": "success",
+                    "message": "welcome back (user's first name)!",
+                    "data": {
+                        "token": Json web token,
+                        "id": Integer (References User Id),
+                        "firstName": String,
+                        "lastName": String,
+                        "email": string
+                    }
+                }
