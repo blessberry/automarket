@@ -75,7 +75,7 @@ To have this application running on your computer, follow the following steps
 
 #### Testing With Postman
 - Install [Postman](https://getpostman.com).
-- View the api endpoints [here](https://quiet-inlet-95293.herokuapp.com/docs).
+- View the api endpoints [here](https://quiet-inlet-95293.herokuapp.com/man).
    
 	 
    
