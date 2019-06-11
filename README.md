@@ -60,7 +60,7 @@ To have this application running on your computer, follow the following steps
        Example:
 
  ```
-    http://localhost:5000/ or https://quiet-inlet-95293.herokuapp.com/api/v1
+    http://localhost:5000/api/v1 or https://quiet-inlet-95293.herokuapp.com/api/v1
 
  ```
     
