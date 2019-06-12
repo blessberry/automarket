@@ -41,10 +41,8 @@ Automarket is an online marketplace for automobiles of diverse makes, model or b
 To have this application running on your computer, follow the following steps
 
 
-
 ### Prerequisites
 - You need to have [Node.js](nodejs.org) installed 
-
 
 
 ### Installing
@@ -63,26 +61,21 @@ To have this application running on your computer, follow the following steps
     http://localhost:5000/api/v1 or https://quiet-inlet-95293.herokuapp.com/api/v1
 
  ```
-    
-    
- 
+     
 ### Running The Tests
 
 #### Testing Locally
 - Run `npm test`
 
 
-
 #### Testing With Postman
 - Install [Postman](https://getpostman.com).
 - View the api endpoints [here](https://quiet-inlet-95293.herokuapp.com/).
    
-	 
-   
+	    
 ## Built With
 - [Node.Js](https://nodejs.org)
 - [ExpressJs](https://expressjs.com)
-
 
 
 ### Testing Tools
@@ -90,10 +83,8 @@ To have this application running on your computer, follow the following steps
 - [Chai](https://www.npmjs.com/package/chai)
 
 
-
 ### Coding Style
 - [AirBnB](https://github.com/airbnb/javascript)
-
 
 
 ## Author
